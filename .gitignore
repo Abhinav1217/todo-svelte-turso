@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Bun.js
+bun-cache/
+bun-logs/
+
+# Editor settings
+*.iml
+*.suo
+*.user
+*.vscode/
+*.vscodeignore
+
+# IDE settings
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Build and deployment
+build/
+dist/
+*.map
+*.min.js
+*.min.css
+
+# Other
+.DS_Store
+Thumbs.db
+
+# env
+.env
+
+# db
+*.db*
