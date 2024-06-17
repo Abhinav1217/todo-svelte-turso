@@ -4,7 +4,7 @@ export default {
   dialect: "sqlite",
   driver: 'turso',
   schema: "./db/schema/*",
-  out: "./drizzle",
+  out: "./db/drizzle",
   dbCredentials: {
     url: process.env.TURSO_CONNECTION_URL as string,
     authToken: process.env.TURSO_AUTH_TOKEN as string,

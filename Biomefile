@@ -1,13 +1,13 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
-  "vcs":{
-    "clientKind": "git",
-    "useIgnoreFile": true,
-    "enabled": true 
-  },
-  "files": {
-    "ignore": ["dist/**", "node_modules/**"]
-  },
+	"vcs": {
+		"clientKind": "git",
+		"useIgnoreFile": true,
+		"enabled": true
+	},
+	"files": {
+		"ignore": ["dist/**", "node_modules/**"]
+	},
 	"organizeImports": {
 		"enabled": true
 	},
@@ -33,7 +33,7 @@
 			"bracketSameLine": false,
 			"bracketSpacing": true,
 			"jsxQuoteStyle": "double",
-			"quoteProperties":"asNeeded",
+			"quoteProperties": "asNeeded",
 			"semicolons": "always",
 			"trailingComma": "all"
 		}
@@ -42,8 +42,8 @@
 		"formatter": {
 			"trailingCommas": "none"
 		},
-    "parser": {
-      "allowComments": true
-    }
+		"parser": {
+			"allowComments": true
+		}
 	}
 }
